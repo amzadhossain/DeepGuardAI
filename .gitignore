@@ -1,0 +1,19 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Dataset (download locally from Kaggle)
+data/raw/*
+!data/raw/.gitkeep
+
+# Model artifacts in artifacts/ are committed on purpose (small, needed by the API).
+# Local notebook runs write here instead.
+artifacts_notebook/
+
+# Editor / OS
+.vscode/
+.DS_Store
